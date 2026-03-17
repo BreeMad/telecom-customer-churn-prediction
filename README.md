@@ -1,5 +1,7 @@
 # Telecom Customer Churn Prediction
 
+![Project Preview](images/churn_contract_internet_heatmap.png)
+
 **Tools:** Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib  
 **Problem Type:** Classification  
 **Industry:** Telecommunications  
@@ -69,6 +71,12 @@ Each row represents a unique telecom customer and includes:
 * **Manual payment methods** correlate with higher churn  
 * **Short-tenure customers** are significantly more likely to leave  
 
+### Customer Segmentation Insight
+
+![Churn Segmentation Heatmap](images/churn_contract_internet_heatmap.png)
+
+The interaction between contract type and internet service reveals that **month-to-month Fiber customers represent the highest-risk churn segment**, making them priority candidates for retention outreach.
+
 ---
 
 ## Model Results
@@ -86,6 +94,12 @@ Evaluation metrics included:
 * Precision & Recall  
 * Confusion Matrix  
 
+### Model Performance Comparison
+
+![ROC Curve Comparison](images/roc_curve_comparison.png)
+
+The Random Forest model demonstrates stronger predictive performance and improved recall for identifying customers at risk of churn.
+
 ---
 
 ## Business Recommendations
@@ -102,11 +116,13 @@ Based on the analysis, telecom providers could reduce churn by:
 ## Repository Structure
 
 ```
-telecom-customer-churn-prediction
+telecom-customer-churn-prediction/
 │
 ├── telecom_churn_analysis.ipynb
 ├── README.md
 └── images/
+    ├── churn_contract_internet_heatmap.png
+    └── roc_curve_comparison.png
 ```
 
 ---
