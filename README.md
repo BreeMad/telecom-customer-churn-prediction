@@ -1,7 +1,5 @@
 # Telecom Customer Churn Prediction
 
-![Project Preview](images/churn_contract_internet_heatmap.png)
-
 **Tools:** Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib  
 **Problem Type:** Classification  
 **Industry:** Telecommunications  
